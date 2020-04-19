@@ -9,7 +9,7 @@ public class Main {
         int barsikAge = barsik.getAge();
         int barsikWeight = barsik.getWeight();
 
-        Cat murka = new Cat("Муркаа", 5, -6);
+        Cat murka = new Cat("Мурка", 5, -6);
         String murkaName = murka.getName();
         int murkaAge = murka.getAge();
         int murkaWeight = murka.getWeight();
