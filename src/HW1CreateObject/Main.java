@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Cat barsik = new Cat("Барсик", -77, 4);
+        Cat barsik = new Cat("aaaa ",2,44 );
         String barsikName = barsik.getName();
         int barsikAge = barsik.getAge();
         int barsikWeight = barsik.getWeight();
@@ -14,7 +14,7 @@ public class Main {
         int murkaAge = murka.getAge();
         int murkaWeight = murka.getWeight();
 
-        Dobermann d = new Dobermann();
+        Dog1 d = new Dog1();
         d.voice();
 
         System.out.println();

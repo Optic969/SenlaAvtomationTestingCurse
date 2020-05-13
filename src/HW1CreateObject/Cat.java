@@ -3,9 +3,9 @@ package HW1CreateObject;
 import javax.xml.namespace.QName;
 
 public class Cat {
-    private String name;
-    private int age;
-    private int weight;
+    private String name= "NoName";
+    private int age=1;
+    private int weight=1;
 
     public Cat(String name, int age, int weight) {
         this.name = name;

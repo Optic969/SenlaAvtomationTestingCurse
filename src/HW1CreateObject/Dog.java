@@ -1,6 +1,6 @@
 package HW1CreateObject;
 
-class Dobermann extends Cat {
+class Dog1 extends Cat {
 
     public void voice()
     {
