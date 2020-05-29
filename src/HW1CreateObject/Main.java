@@ -4,12 +4,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Cat barsik = new Cat("aaaa ",2,44 );
+        Cat barsik = new Cat("Barsik ",2,44 );
         String barsikName = barsik.getName();
         int barsikAge = barsik.getAge();
         int barsikWeight = barsik.getWeight();
 
-        Cat murka = new Cat("Мурка", 5, -6);
+        Cat murka = new Cat("Murka", 5, -6);
         String murkaName = murka.getName();
         int murkaAge = murka.getAge();
         int murkaWeight = murka.getWeight();
@@ -19,14 +19,14 @@ public class Main {
 
         System.out.println();
 
-        System.out.println("Имя кота: " + barsikName);
-        System.out.println("Возраст кота: " + barsikAge);
-        System.out.println("Вес кота: " + barsikWeight);
+        System.out.println("Cat name: " + barsikName);
+        System.out.println("Cat age: " + barsikAge);
+        System.out.println("Cat weight: " + barsikWeight);
 
         System.out.println();
 
-        System.out.println("Имя кота: " + murkaName);
-        System.out.println("Возраст кота: " + murkaAge);
-        System.out.println("Вес кота: " + murkaWeight);
+        System.out.println("Cat name: " + murkaName);
+        System.out.println("Cat age: " + murkaAge);
+        System.out.println("Cat weight: " + murkaWeight);
     }
 }

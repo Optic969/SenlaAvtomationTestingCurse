@@ -5,6 +5,6 @@ class Dog1 extends Cat {
     public void voice()
     {
         super.sayMeow();
-        System.out.println("Мой папка был котом, поэтому теперь я КОТОПЕС!!!");
+        System.out.println("My dad was a cat, so now I KOTOPES!!!");
     }
 }

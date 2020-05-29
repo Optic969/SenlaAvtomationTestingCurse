@@ -17,7 +17,7 @@ public class Cat {
     }
 
     public void sayMeow() {
-        System.out.println("Мяу!");
+        System.out.println("May!");
     }
 
     public String getName() {
@@ -28,7 +28,7 @@ public class Cat {
         if (name !=null ) {
             this.name = name;
         } else {
-            System.out.println("Ошибка! У кота должно быть имя!");
+            System.out.println("Error! Give a name to the cat!");
         }
     }
 
@@ -40,7 +40,7 @@ public class Cat {
         if (age >= 0) {
             this.age = age;
         } else {
-            System.out.println("Ошибка! Возраст не может быть отрицательным числом!");
+            System.out.println("Error!! " + "Age cannot be a negative number!");
         }
     }
 
@@ -52,7 +52,7 @@ public class Cat {
         if (weight >=0) {
             this.weight = weight;
         } else {
-            System.out.println("Ошибка! Вес не может быть отрицательным числом!");
+            System.out.println("Error! Weight cannot be a negative number!");
         }
     }
 }
