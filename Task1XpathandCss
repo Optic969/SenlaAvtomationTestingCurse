@@ -1,0 +1,12 @@
+1 TUT by
+Xpath   //body/div/div/div/div/div/div/div[2]/div[1]/div[1]/div[2]/a[1]/span[1]
+CSS(слишком длинный???)   #geo_news_block > div > div.l-columns > div > div:nth-child(2) > div > div > div:nth-child(2) > a > span
+2 Challenging DOM
+элемент с текстом Consequuntur5
+Xpath //tr[6]//td[5]
+CSS  tr:nth-child(6) td:nth-child(5)
+3 Large&Deep DOM
+Xpath //tr[36]//td[3]  
+CSS div.row:nth-child(2) div.large-12.columns:nth-child(2) div.example div:nth-child(1) table:nth-child(3) tbody:nth-child(2) tr.row-36 > td.column-3
+Xpath //tr[35]//td[32]
+CSS  div.row:nth-child(2) div.large-12.columns:nth-child(2) div.example div:nth-child(1) table:nth-child(3) tbody:nth-child(2) tr.row-35 > td.column-32 
